@@ -1,0 +1,19 @@
+{
+  "name": "leitsch/gaffer-tape",
+  "description": "With Gaffer Tape you can fix everything also WordPress.",
+  "license": "GPL2",
+  "authors": [
+    {
+      "name": "Lukas Leitsch",
+      "email": "lukas@leitsch.org"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Leitsch\\GafferTape\\": "src/"
+    }
+  }
+}
