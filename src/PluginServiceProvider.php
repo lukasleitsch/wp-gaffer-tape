@@ -3,6 +3,7 @@
 namespace Leitsch\GafferTape;
 
 use Exception;
+use Leitsch\GafferTape\Services\Mail;
 use Leitsch\GafferTape\Services\Menu;
 use Leitsch\GafferTape\Services\Service;
 
@@ -43,6 +44,7 @@ class PluginServiceProvider {
     private function getServices(): array {
         return [
             Menu::class,
+            Mail::class,
         ];
     }
 
